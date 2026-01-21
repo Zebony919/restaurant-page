@@ -22,6 +22,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 5px 5px 5px white;
 }
 
 nav {
@@ -35,6 +36,10 @@ nav button {
     font-size: 30px;
     color: white;
     background-color: black;
+}
+
+.content {
+    background-color: rgb(63, 63, 63);
 }
 
 /* Home Page */
@@ -63,4 +68,11 @@ nav button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.foodItem {
+    height: 400px;
+    width: 700px;
+    border: 2px solid white;
 }
