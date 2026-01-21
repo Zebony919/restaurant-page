@@ -1,6 +1,7 @@
 import "./style.css";
-import { loadHomePage } from "./home.js"
-import { loadMenuPage } from "./menu.js"
+import { loadHomePage } from "./home.js";
+import { loadMenuPage } from "./menu.js";
+import { loadAboutPage } from "./about.js";
 
 console.log("Hello, World!");
 

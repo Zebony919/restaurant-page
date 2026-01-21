@@ -22,7 +22,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 5px 5px 5px white;
 }
 
 nav {
@@ -62,8 +61,24 @@ nav button {
 }
 
 /* Menu Page */
+#menuContent,
+#aboutContent {
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuTitle,
+.aboutTitle {
+    font-size: 70px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
 .food {
-    height: 1200px;
+    height: 1700px;
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -72,7 +87,51 @@ nav button {
 }
 
 .foodItem {
-    height: 400px;
+    height: 300px;
     width: 700px;
-    border: 2px solid white;
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 20px;
+}
+
+.foodName,
+.foodDescription {
+    color: white;
+}
+
+.foodName {
+    font-size: 30px;
+}
+
+.foodDescription {
+    font-size: 24px;
+}
+
+/* About Page */
+.titleOne,
+.titleTwo,
+.titleThree,
+.titleFour {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    margin-top: 70px;
+}
+
+.textOne,
+.textTwo,
+.textThree,
+.textFour {
+    width: 700px;
+    font-size: 24px;
+    color: white;
+}
+
+.textFour {
+    margin-bottom: 100px;
 }
